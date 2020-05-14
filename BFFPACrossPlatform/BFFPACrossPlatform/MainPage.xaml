@@ -12,6 +12,7 @@
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
         <Entry Placeholder="lelel" />
+        <Button Text="test" BorderWidth="10" Clicked="ItemClicked"/>
     </StackLayout>
     
 </ContentPage>

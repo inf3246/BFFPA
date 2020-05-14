@@ -18,5 +18,10 @@ namespace BFFPACrossPlatform
             InitializeComponent();
 
         }
+
+        public void ItemClicked(object sender, EventArgs e)
+        {
+            Console.WriteLine("test");
+        }
     }
 }
