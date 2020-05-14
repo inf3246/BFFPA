@@ -11,7 +11,7 @@
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
-        <Entry Placeholder="vaginalpilz187" />
+        <Entry Placeholder="vaginalpilz187 lelel" />
         <Button Text="test" BorderWidth="10" Clicked="ItemClicked"/>
     </StackLayout>
     
