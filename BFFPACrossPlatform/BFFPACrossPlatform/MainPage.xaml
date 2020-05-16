@@ -8,11 +8,11 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
+        <Label Text="Willkommen ihr Freunde des Weingenusses!"
+               FontSize="Large"
+           HorizontalOptions="CenterAndExpand"
            VerticalOptions="CenterAndExpand" />
-        <Entry Placeholder="vaginalpilz187 lelel" />
-        <Button Text="test" BorderWidth="10" Clicked="ItemClicked"/>
+        <Button Text="Start" BorderWidth="5" Padding="30" CornerRadius="20" FontSize="Large"/>
     </StackLayout>
     
 </ContentPage>
