@@ -9,7 +9,17 @@
                FontSize="Medium"
            HorizontalOptions="CenterAndExpand"
            VerticalOptions="CenterAndExpand" />
-    <Entry Placeholder="Name" />
+        <Entry Placeholder="Name" />
+        
+        <Entry Placeholder="Gewicht" />
+        <Picker Title="Geschlecht" >
+            <Picker.Items>
+                <x:String>männlich</x:String>
+                <x:String>weiblich</x:String>
+            </Picker.Items>
+        </Picker>
+        <Entry Placeholder="Promille Untergrenze" />
+        <Entry Placeholder="Promille Obergrenze" />
         <Button Text="Start" BorderWidth="5" Padding="30" CornerRadius="20" FontSize="Large"/>
     </StackLayout>
 
