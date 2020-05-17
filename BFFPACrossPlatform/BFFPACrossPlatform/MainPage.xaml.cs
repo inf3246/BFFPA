@@ -19,9 +19,11 @@ namespace BFFPACrossPlatform
 
         }
 
-        public void ItemClicked(object sender, EventArgs e)
+
+        async void Button_Clicked_1(System.Object sender, System.EventArgs e)
         {
-            Console.WriteLine("test");
+            await Navigation.PushAsync(new SecondScreen());
+
         }
     }
 }

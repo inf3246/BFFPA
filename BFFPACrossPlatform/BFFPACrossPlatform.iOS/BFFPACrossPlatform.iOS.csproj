@@ -129,8 +129,11 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\BFFPACrossPlatform\BFFPACrossPlatform.csproj">
-      <Project>{CD2011E4-854C-4A6A-A6B1-7FBC5DFF2989}</Project>
+      <Project>{8F0DFB14-8BB9-423D-BBAC-0D0026DBF4A8}</Project>
       <Name>BFFPACrossPlatform</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\BFFimage.jpg" />
   </ItemGroup>
 </Project>

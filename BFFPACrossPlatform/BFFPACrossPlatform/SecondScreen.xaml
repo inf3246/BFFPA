@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BFFPACrossPlatform.SecondScreen">
+
+<StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Bitte geben Sie Ihre persönlichen Daten an."
+               FontSize="Medium"
+           HorizontalOptions="CenterAndExpand"
+           VerticalOptions="CenterAndExpand" />
+    <Entry Placeholder="Name" />
+        <Button Text="Start" BorderWidth="5" Padding="30" CornerRadius="20" FontSize="Large"/>
+    </StackLayout>
+
+</ContentPage>

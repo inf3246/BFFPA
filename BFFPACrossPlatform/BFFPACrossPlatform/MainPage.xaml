@@ -4,15 +4,16 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="BFFPACrossPlatform.MainPage">
-
+             x:Class="BFFPACrossPlatform.MainPage"
+             BackgroundImageSource="BFFimage.jpg">
+    
     <StackLayout>
         <!-- Place new controls here -->
         <Label Text="Willkommen ihr Freunde des Weingenusses!"
                FontSize="Large"
            HorizontalOptions="CenterAndExpand"
            VerticalOptions="CenterAndExpand" />
-        <Button Text="Start" BorderWidth="5" Padding="30" CornerRadius="20" FontSize="Large"/>
+        <Button Text="Start" BorderWidth="5" Padding="30" CornerRadius="20" FontSize="Large" Clicked="Button_Clicked_1"/>
     </StackLayout>
     
 </ContentPage>
