@@ -4,10 +4,10 @@ using System.Text;
 
 namespace BFFPACrossPlatform
 {
-    class User
+    public class User
     {
         double weight;
-        bool gender;
+        String genderFaktor; //Reduktionsfaktor 0,7 oder 0,6 wird von der Form übergeben
         static double akfm = 0.68;
         static double akfw = 0.55;
         String name;
@@ -15,16 +15,17 @@ namespace BFFPACrossPlatform
         Getränk[] getränke;
         double bakUG;
         double bakOG;
-        bool currentState;
+        
 
 
-        public User(double weight, String name, Boolean gender, double bakUG, double bakOG)
+        public User(double weight, String name, String gender, double bakUG, double bakOG)
         {
             this.weight = weight;
-            this.gender = gender;
+            this.genderFaktor = gender;
             this.name = name;
             this.bakUG = bakUG;
             this.bakOG = bakOG;
+            bak = 0;
         }
 
         public void addDrink(Getränk getränk)
@@ -34,9 +35,9 @@ namespace BFFPACrossPlatform
         }
 
         public void calcBAK(Getränk getränk)
-        {
-            bak += getränk.calcalc;
-           currentState = checkBAK(bak, bakUG, bakOG);
+        { double reductFaktor;
+
+            //bak += getränk.alcInGramm/(weight * )
         }
 
         public bool checkBAK(double bak, double bakUG, double bakOG)
