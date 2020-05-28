@@ -15,7 +15,7 @@ namespace BFFPACrossPlatform
         {
             User user = new User(Convert.ToDouble(uweight.Text), uname.Text, ugender.SelectedItem.ToString(), Convert.ToDouble(uBakU.Text), Convert.ToDouble(uBakO.Text));
 
-            Console.WriteLine(user.name, user.weight, user.genderFaktor);
+            Console.WriteLine(user.name + "\n" +  user.weight + "kg"+ "\n" + user.genderFaktor + "\n" + user.bakUG + " Promille "+ "\n" + user.bakOG +" Promille");
 
         }
     }
