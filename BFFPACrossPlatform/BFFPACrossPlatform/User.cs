@@ -4,17 +4,17 @@ using System.Text;
 
 namespace BFFPACrossPlatform
 {
-    public class User
+    class User
     {
-        double weight;
-        String genderFaktor; //Reduktionsfaktor 0,7 oder 0,6 wird von der Form übergeben
-        static double akfm = 0.68;
-        static double akfw = 0.55;
-        String name;
-        double bak;
-        Getränk[] getränke;
-        double bakUG;
-        double bakOG;
+        public double weight;
+        public String genderFaktor; //Reduktionsfaktor 0,7 oder 0,6 wird von der Form übergeben
+        public static double akfm = 0.68;
+        public static double akfw = 0.55;
+        public String name;
+        public double bak;
+        public Getränk[] getränke;
+        public double bakUG;
+        public double bakOG;
         
 
 
